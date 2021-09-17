@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@700&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Robo: 'Roboto';
+    --Mont: 'Montserrat';
+    --Oswa: 'Oswald';
+}
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.header{
+    background-image: url(../img/him.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(48, 14, 14, 0.6);
+    backdrop-filter: blur(15px);
+    z-index: 4;
+}
+.logo{
+    content: url(../img/logo.png);
+}
+.nav-link{
+    font-family: var(--Mont);
+    font-weight: 500;
+    font-size: 16px;
+    color: white !important;
+    transition: 0.8s linear;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #961914;
+}
+.header__content{
+    padding-top: 130px;
+}
+.header__title{
+    font-family: var(--Oswa);
+    font-weight: 700;
+    font-size: 54px;
+}
+.header__text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 20px;
+}
+.button{
+    background: #961914;
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 16px;
+}
+.button:hover{
+    outline: none;
+}
+.main{
+    padding-top: 180px;
+}
+.title{
+    font-family: var(--Oswa);
+    font-weight: 700;
+    font-size: 46px;
+}
+.text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 16px;
+    color: #434242;
+}
+.barf__title{
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+.main__list li{
+    list-style: disc;
+}
+.main__list li::marker{
+    color: #961914;
+}
+.main__link{
+  font-family: var(--Mont);
+  font-weight: 400;
+  font-size: 16px;
+  color: #434242 !important;
+}
+
+.main__content{
+    margin-top: 80px;
+    background: #EAD1D0;
+    margin-bottom: 203px;
+}
+.nutrition__title{
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.nutrition__text{
+    margin-left: 10px;
+    font-family: var(--Mont);
+    font-weight: 500;
+    font-size: 18px;
+    color: #434242;
+}
+.text2{
+    width: 777px;
+}
+.section__zoov{
+    margin-bottom: 93px;
+}
+.zoov__item{
+    transition: 0.10s linear;
+}
+.zoov__item:hover{
+   transform: scale(1.1);
+}
+.zoov__title{
+    font-family: var(--Mont);
+    font-weight: 700;
+    font-size: 16px;
+}
+.zoov__text2{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 13px;
+    color: #9F9E9D;
+}
+.zoov__text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 14px;
+    color: #434242;
+}
+.zoov__btn{
+   border: 2px solid #961914; 
+   color: #961914 !important;
+   font-family: var(--Mont);
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.zoov__info{
+    background: #EAD1D0;
+    padding: 50px;
+    margin-bottom: 180px;
+}
+.zoov__info-title{
+    font-family: var(--Mont);
+    font-weight: 500;
+    font-size: 28px;
+   
+}
+.zoov__button{
+    width: 171px;
+    height: 48px;
+    background: #961914;
+    color: white !important;
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 16px;
+}
+.section__zoov-user{
+    background-image: url(../img/v2.png);
+    min-height: 280px;
+    margin-bottom: 180px;
+}
+.zoov__user-item{
+    transition: 0.10s linear;
+}
+.zoov__user-item:hover{
+    transform: scale(1.1);
+}
+.zoov__user-title{
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 18px;
+}
+.zoov__user-text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 16px;
+}
+.section__doog{
+    background: #FFF4F3;
+    padding-top: 80px;
+    padding-bottom: 280px;
+    margin-bottom: 180px;
+    
+}
+.doog__img{
+    bottom: -186px;
+    right: 78px;
+    z-index: 2;
+}
+.doog__img2{
+    left: -45px;
+    bottom: -76px;
+    width: 150px;
+    height: 150px;
+}
+.doog__img3{
+    width: 100px;
+    height: 110px;
+    right: 107px;
+    bottom: 151px;
+    z-index: 3;
+}
+.section__questions{
+    margin-bottom: 180px;
+}
+.question__title{
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 18px;
+}
+.questions__text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 691px;
+    width: 100%;
+}
+.questions__list li{
+    margin-bottom: 15px;
+    list-style: disc;
+}
+.questions__link{
+    font-family: var(--Mont);
+    font-weight: 600;
+    font-size: 18px;
+    color: #000 !important;
+}
+.questions__list li::marker{
+    color: #961914;
+}
+.footer{
+    padding-top: 80px;
+    background: #961914;
+    
+}
+
+.phone__link{
+    font-family: var(--Mont);
+    font-weight: 700;
+    font-size: 16px;
+}
+.footer__input{
+    width: 223px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 0.2;
+    padding-left: 20px;
+}
+.footer__input:focus{
+    outline: none;
+}
+.footer__input::placeholder{
+    font-family: var(--Mont);
+    font-weight: 500;
+    font-size: 14px;
+    color: blueviolet !important;
+}
+.footer__img{
+    width: 160px;
+    height: 140px;
+}
+.footer__img2{
+    width: 170px;
+    height: 140px;
+}
+.footer__title{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer__text{
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.input{
+    width: 306px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    padding-left: 6px;
+}
+.input:focus{
+    outline: none;
+}
+.text__area{
+    resize: none;
+    outline: none;
+    background: none;
+    width: 420px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    font-family: var(--Mont);
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.198);
+}
+.footer__btn{
+    font-family: var(--Mont);
+    font-weight: 700;
+    font-size: 16px;
+    width: 174px;
+    height: 48px;
+    color: #EC7973;
+}
+@media(max-width:1400px){
+    .doog__img3 {
+        right: 21px;
+}
+.doog__img{
+    right: 34px;
+}
+    
+}
+@media(max-width: 1255px){
+    .text__area{
+        width: 300px;
+    }
+    .input__one{
+        flex-wrap: wrap;
+      
+    }
+    .input{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:1200px){
+    .doog__img{
+        display: none;
+    }
+    .doog__img3{
+        display: none;
+    }
+    .doog__img2{
+        display: none;
+    }
+    .doog__img1{
+        display: block;
+        margin: 0 auto;
+    }
+    .doog__item-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:992px){
+    .footer__item{
+        display: flex;
+        flex-direction: column;
+       align-items: center; 
+       
+    }
+    .zoov__item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .zoov__content{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .form__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media(max-width: 576px){
+    .header__title{
+        font-size: 34px;
+    }
+    .header__text{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .barf__title{
+        font-size: 14px;
+    }
+    .main__link{
+        font-size: 13px;
+    }
+    .zoov__text{
+        font-size: 12px;
+    }
+    .zoov__btn{
+        font-size: 13px;
+    }
+    .zoov__info-title{  font-size: 22px;}
+    .zoov__user-title{
+        font-size: 15px;
+    }
+    .zoov__user-text{
+        font-size: 13px;
+    }
+    .question__title{
+        font-size: 16px;
+    }
+    .questions__text{
+        font-size: 13px;
+    }
+    .questions__link{
+        font-size: 14px;
+    }
+}
