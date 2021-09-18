@@ -427,6 +427,6 @@ ul,li,a{
         font-size: 14px;
     }
     .zoov__item:hover{
-        tranform: none;
+       transform: scale(1);
     }
 }
