@@ -426,7 +426,5 @@ ul,li,a{
     .questions__link{
         font-size: 14px;
     }
-    .zoov__item:hover{
-       transform: scale(1);
-    }
+  
 }
